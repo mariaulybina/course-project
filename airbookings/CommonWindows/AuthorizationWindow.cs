@@ -43,7 +43,7 @@ namespace airbookings
                 switch (user.userType)
                 {
                     case null:
-                        MessageBox.Show("Неправильный логин или пароль");
+                        MessageBox.Show("Неправильный логин/пароль");
                         break;
                     default:
                         StartWindow startWindow = new StartWindow(user);
